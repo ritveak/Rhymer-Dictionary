@@ -33,7 +33,7 @@ for syn in syns:
     for a in an:
         hr+=a.lemma_names()
     for d in dn:
-        hr+=s.lemma_names()
+        hr+=d.lemma_names()
         
 #now even "loaf" gets included when "food" is given as input
 
